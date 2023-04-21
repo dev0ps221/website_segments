@@ -1,0 +1,10 @@
+.item_description_box{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,48%);
+    align-items: center;
+    justify-items: center;
+}
+.item_description_description_wrapper{
+    
+}

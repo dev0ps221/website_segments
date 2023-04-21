@@ -8,5 +8,8 @@
     <title>Website Sections</title>
 </head>
 <body>
+    <?php
+        include('segments/item_description.php');
+    ?>
 </body>
 </html>
