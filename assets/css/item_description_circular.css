@@ -68,9 +68,27 @@
     border: 25px solid teal;
 }
 @media screen and (max-width:992px) {
+    .item_description_img_wrapper,.item_description_description_wrapper{
+        left: 0;
+        right: 0;
+        min-width: 80%;
+    }
     .item_description_img_wrapper{
-        
+        transform: translateX(40%);
+    }
+    .item_description_description_wrapper{
+        transform: translate(-40%,75%);
+    }
+    .item_description_img{
+        width: 100%;
     }   
+    .item_description_img_wrapper::after{
+        right: 0;
+    }
+    .item_description_img_wrapper::before{
+        left: 0;
+    }
+
 }
 @media screen and (max-width:600px) {
     .item_description_box{
