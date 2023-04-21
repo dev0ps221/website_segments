@@ -82,5 +82,7 @@
     .item_description_description_wrapper{
         padding: 1rem;
     }
-    
+    .item_description_img{
+        width: 100%;
+    }       
 }
