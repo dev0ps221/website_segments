@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/css/item_description_overlay.css">
+<link rel="stylesheet" href="/assets/css/item_description_circular.css">
 <div class="item_description_box">
     <div class="item_description_img_wrapper">
         <img src="/assets/pictures/person.avif" alt="titre" class='item_description_img'>
