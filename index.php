@@ -8,9 +8,9 @@
     <title>Website Sections</title>
 </head>
 <body>
-    <?php
+    <?php   
         //item description
-        include('segments/item_description/item_description.php');
+        include('segments/galerylike_description/galerylike_description.php');
     ?>
 </body>
 </html>
