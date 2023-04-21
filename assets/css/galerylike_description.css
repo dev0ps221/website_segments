@@ -39,6 +39,7 @@
 }
 .galerylike_description_description_action{
     padding: 25px;
-    background: #232323;
+    background: teal;
     color:#fcfcfc;
+    border-radius: 5rem;
 }
