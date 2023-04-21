@@ -68,5 +68,19 @@
     border: 25px solid teal;
 }
 @media screen and (max-width:992px) {
+    .item_description_box{
+        display: flex;
+        flex-direction: column;
+    }       
+    .item_description_box > *{
+        width: 100%;
+        left: 0;
+        right: 0;
+        transform: none;
+    }
+
+    .item_description_description_wrapper{
+        padding: 1rem;
+    }
     
 }
