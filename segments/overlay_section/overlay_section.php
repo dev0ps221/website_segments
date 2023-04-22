@@ -1,7 +1,7 @@
-<link rel="stylesheet" href="/assets/css/overlay.css">
+<link rel="stylesheet" href="/assets/css/overlay_section.css">
 <section class="overlay_section">
     <div class="overlay_picture_wrapper">
-        <img src="/assets/pictures/girl.avif" alt="girl" class="overlay_picture">
+        <img src="/assets/pictures/girl.avif" alt="girl" class="overlay_section_picture">
     </div>
     <div class="overlay_data_wrapper">
         <div class="overlay_data">

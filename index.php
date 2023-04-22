@@ -10,7 +10,7 @@
 <body>
     <?php   
         //item description
-        include('segments/overlay/overlay.php');
+        include('segments/overlay_section/overlay_section.php');
     ?>
 </body>
 </html>
