@@ -22,6 +22,10 @@
         //overlay section
         showtitle('OVERLAY SECTION');
         include('segments/overlay_section/overlay_section.php');
+
+        //overlay section
+        showtitle('PICTURE PORTFOLIO');
+        
     ?>
 </body>
 </html>
