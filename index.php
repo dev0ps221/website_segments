@@ -8,11 +8,19 @@
     <title>Website Sections</title>
 </head>
 <body>
+
     <?php   
+    
+        function showtitle($title){
+            echo "<h1 style='text-align:center;padding:2rem;font-size:250%;'>$title</h1>";
+        }
+
         //item description
+        showtitle('ITEM DESCRIPTION');
         include('segments/item_description/item_description.php');
 
         //overlay section
+        showtitle('OVERLAY SECTION');
         include('segments/overlay_section/overlay_section.php');
     ?>
 </body>
