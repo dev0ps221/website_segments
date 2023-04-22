@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/css/overlay_section.css">
+<link rel="stylesheet" href="/assets/css/overlay_section_squared.css">
 <section class="overlay_section">
     <div class="overlay_picture_wrapper">
         <img src="/assets/pictures/girl.avif" alt="girl" class="overlay_section_picture">
