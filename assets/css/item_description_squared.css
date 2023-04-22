@@ -3,55 +3,48 @@
 }
 .item_description_box > *{
     width: 50%;
-    margin: auto;
+    margin-inline: auto;
 }
 .item_description_img_wrapper{
     position: relative;
     display: flex;
     justify-content: center;
-    border-radius: 50%;
-    transform: translate(-25%,15%);
+    transform: translate(-30%,10%);
 }
 .item_description_img_wrapper::after,.item_description_img_wrapper::before{
     position: absolute;
     width: 15%;
     height: 25%;
-    border-radius: 50%;
     content: '';
     background: #fff;
     border: 25px solid teal;
-    z-index: -1;
 }
 .item_description_img_wrapper::after{
     top: 0;
     right: 10%;
 }
 .item_description_img_wrapper::before{
-    z-index: unset;
     bottom: 0;
     left: 10%;
 }
 .item_description_img{
     width: 80%;
-    border-radius: 50%;
 }
 .item_description_description_wrapper{
     position: relative;
     padding: 5rem;
-    padding-block: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 35%;
-    border-radius: 50%;
+    width: 40%;
     background: teal;
     color: #fff;
-    font-size: 120%;
-    transform: translate(25%,-20%);
+    font-size: 1.1rem;
+    transform: translate(30%,-15%);
 }
 .item_description_description_titre{
-    font-size: 150%;
+    font-size: 2rem;
 }
 .item_description_description_action_wrapper{
     margin-block: 15px;
@@ -59,16 +52,34 @@
 .item_description_description_action{
     padding: 25px;
     color: teal;
-    border-radius: 25rem;
     background: #fff;
 }
 .item_description_box.bordered .item_description_img_wrapper{
     border: 25px solid teal;
 }
-/* @media screen and (max-width:992px) {
-    
+@media screen and (max-width:992px) {
+    .item_description_img_wrapper,.item_description_description_wrapper{
+        left: 0;
+        right: 0;
+        min-width: 80%;
+    }
+    .item_description_img_wrapper{
+        transform: translateX(40%);
+    }
+    .item_description_description_wrapper{
+        transform: translate(-40%,75%);
+    }
+    .item_description_img{
+        width: 100%;
+    }   
+    .item_description_img_wrapper::after{
+        right: 0;
+    }
+    .item_description_img_wrapper::before{
+        left: 0;
+    }
 
-} */
+}
 @media screen and (max-width:600px) {
     .item_description_box{
         display: flex;
