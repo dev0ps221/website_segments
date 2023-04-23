@@ -2,7 +2,7 @@
 <div id="picture_portfolio">
     <div class="picture_portfolio_heading_wrapper">
         <h1 class="picture_portfolio_heading_title">
-            TITRE
+            UN APERCU DU PORTFOLIO
         </h1>
         <h3 class="picture_portfolio_heading_subtitle">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo vitae dolorum nihil dolor harum delectus hic natus atque?

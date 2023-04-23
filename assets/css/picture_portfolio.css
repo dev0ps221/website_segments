@@ -1,7 +1,15 @@
 #picture_portfolio{
-    padding-inline: 128px;
+    background: #0fbad0;
+    color: #fff;
+    padding-inline: 200px;
 }
-
+.picture_portfolio_heading_wrapper{
+    text-align: center;
+    padding: 64px;
+}
+.picture_portfolio_heading_title{
+    font-size: 3em;
+}
 .picture_portfolio_portfolio{
     display: grid;
     grid-template-columns: repeat(4,3fr);
@@ -9,33 +17,34 @@
 
 .picture_portfolio_portfolio_picture_wrapper{
     display: grid;
-    background: #0008;
+    background: #fff;
     box-shadow: 0 0 5px #0008;
+    color:#000;
     align-items: center;
     margin: 16px;
     transition: .8s;
-}
-.picture_portfolio_portfolio_picture_wrapper img{
-    transition: .8s;
-}
-.picture_portfolio_portfolio_picture_wrapper img:hover
-,.picture_portfolio_portfolio_picture_wrapper img:focus-within{
-    box-shadow: 0 0 15px #99e8;
-    transform: scale(1.12);
-    transition: .5s;
-    z-index: 1;
 }
 
 .picture_portfolio_portfolio_picture_label{
     display: grid;
     align-items: center;
-    padding-block: 16px;
+    padding-block: 32px;
+    padding-inline: 64px;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 
 .picture_portfolio_portfolio_picture{
+    transition: .8s;
     width: 100%;
-    height: 100%;
+    min-height: 35vh;
+}
+
+.picture_portfolio_portfolio_picture:hover
+,.picture_portfolio_portfolio_picture:focus-within{
+    box-shadow: 0 0 15px #99e8;
+    transform: scale(1.12);
+    transition: .5s;
+    z-index: 1;
 }
