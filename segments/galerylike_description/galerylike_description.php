@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/css/galerylike_description.css">
+<link rel="stylesheet" href="/assets/css/galerylike_description_raw.css">
 <div class="galerylike_description">
     <div class="galerylike_pictures_wrapper">
         <div class="galerylike_pictures">

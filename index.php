@@ -19,6 +19,10 @@
         // showtitle('ITEM DESCRIPTION');
         include('segments/item_description/item_description.php');
 
+        //galerylike description
+        // showtitle('galerylike DESCRIPTION');
+        include('segments/galerylike_description/galerylike_description.php');
+
         //overlay section
         // showtitle('OVERLAY SECTION');
         include('segments/overlay_section/overlay_section.php');
