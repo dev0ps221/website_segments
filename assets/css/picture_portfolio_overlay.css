@@ -1,7 +1,8 @@
 #picture_portfolio{
+    --ipad:200px;
     /* background: #0fbad0;
     color: #fff; */
-    padding-inline: 200px;
+    padding-inline: var(--ipad);
 }
 .picture_portfolio_heading_wrapper{
     text-align: center;
@@ -45,4 +46,23 @@
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+@media screen and (max-width:992px) {
+    #picture_portfolio{
+        --ipad:72px;
+    }
+    .picture_portfolio_portfolio{
+        display: grid;
+        grid-template-columns: repeat(2,6fr);
+    }
+}
+@media screen and (max-width:600px) {
+    .picture_portfolio_portfolio{
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+    #picture_portfolio{
+        --ipad:16px;
+    }   
 }

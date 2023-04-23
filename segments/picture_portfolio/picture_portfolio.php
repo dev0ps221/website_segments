@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/css/picture_portfolio_overlay.css">
+<link rel="stylesheet" href="/assets/css/picture_portfolio.css">
 <div id="picture_portfolio">
     <div class="picture_portfolio_heading_wrapper">
         <h1 class="picture_portfolio_heading_title">
