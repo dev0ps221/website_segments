@@ -29,8 +29,8 @@
     display: grid;
     align-items: center;
     padding-block: 32px;
-    padding-inline: 64px;
-    text-align: center;
+    padding-inline: 16px;
+    text-align: justify;
     font-size: 1.4em;
     object-fit: cover;
     background: #0009;
