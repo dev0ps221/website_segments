@@ -25,6 +25,7 @@
 
         //overlay section
         showtitle('PICTURE PORTFOLIO');
+        include('segments/picture_portfolio/picture_portfolio.php');
         
     ?>
 </body>
