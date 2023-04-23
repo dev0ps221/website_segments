@@ -17,12 +17,13 @@
 
 .picture_portfolio_portfolio_picture_wrapper{
     display: grid;
-    background: #fff;
+    position: relative;
+    isolation: isolate;
     box-shadow: 0 0 5px #0008;
-    color:#000;
-    align-items: center;
+    align-items: end;
     margin: 16px;
     transition: .8s;
+    min-height: 45vh;
 }
 .picture_portfolio_portfolio_picture_label{
     display: grid;
@@ -32,33 +33,16 @@
     text-align: center;
     font-size: 1.4em;
     object-fit: cover;
+    background: #0009;
+    color: #fff;
+    border-top:2px solid #fff;
 }
 
 
 .picture_portfolio_portfolio_picture{
+    position: absolute;
     transition: .8s;
     width: 100%;
-    transform: skewY(5deg);
-    min-height: 35vh;
-    animation: none;
-}
-
-.picture_portfolio_portfolio_picture:hover
-,.picture_portfolio_portfolio_picture:focus-within{
-    box-shadow: 0 0 15px #99e8;
-    transform: scale(1.12);
-    transition: all .8s;
-    z-index: 1;
-    animation: heartbeat 1s infinite backwards;
-}
-@keyframes heartbeat {
-    from{
-        transform: scale(1.12);
-    }
-    90%{
-       transform:scale(1.1998); 
-    }
-    to{
-        transform: scale(1.12);
-    }
+    height: 100%;
+    z-index: -1;
 }
