@@ -24,14 +24,17 @@
     margin: 16px;
     transition: .8s;
 }
-
 .picture_portfolio_portfolio_picture_label{
+    display: none;
+}
+#picture_portfolio.labeled .picture_portfolio_portfolio_picture_label{
     display: grid;
     align-items: center;
     padding-block: 32px;
     padding-inline: 64px;
     text-align: center;
     font-size: 1.4em;
+    object-fit: cover;
 }
 
 

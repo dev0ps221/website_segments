@@ -16,15 +16,15 @@
         }
 
         //item description
-        showtitle('ITEM DESCRIPTION');
+        // showtitle('ITEM DESCRIPTION');
         include('segments/item_description/item_description.php');
 
         //overlay section
-        showtitle('OVERLAY SECTION');
+        // showtitle('OVERLAY SECTION');
         include('segments/overlay_section/overlay_section.php');
 
         //overlay section
-        showtitle('PICTURE PORTFOLIO');
+        // showtitle('PICTURE PORTFOLIO');
         include('segments/picture_portfolio/picture_portfolio.php');
         
     ?>
