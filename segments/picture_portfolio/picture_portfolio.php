@@ -1,3 +1,26 @@
 <div id="picture_portfolio">
-    ok
+    <div class="picture_portfolio_heading_wrapper">
+        <h1 class="picture_portfolio_heading_title">
+            TITRE
+        </h1>
+        <h3 class="picture_portfolio_heading_subtitle">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo vitae dolorum nihil dolor harum delectus hic natus atque?
+        </h3>
+    </div>
+    <div class="picture_portfolio_portfolio_wrapper">
+        <div class="picture_portfolio_portfolio">
+            <div class="picture_portfolio_portfolio_picture_wrapper">
+                <img src="/assets/pictures/person.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+            </div>
+            <div class="picture_portfolio_portfolio_picture_wrapper">
+                <img src="/assets/pictures/guy.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+            </div>
+            <div class="picture_portfolio_portfolio_picture_wrapper">
+                <img src="/assets/pictures/girl.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+            </div>
+            <div class="picture_portfolio_portfolio_picture_wrapper">
+                <img src="/assets/pictures/persons.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+            </div>
+        </div>
+    </div>
 </div>
