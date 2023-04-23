@@ -25,9 +25,6 @@
     transition: .8s;
 }
 .picture_portfolio_portfolio_picture_label{
-    display: none;
-}
-#picture_portfolio.labeled .picture_portfolio_portfolio_picture_label{
     display: grid;
     align-items: center;
     padding-block: 32px;
@@ -41,13 +38,27 @@
 .picture_portfolio_portfolio_picture{
     transition: .8s;
     width: 100%;
+    transform: skewY(5deg);
     min-height: 35vh;
+    animation: none;
 }
 
 .picture_portfolio_portfolio_picture:hover
 ,.picture_portfolio_portfolio_picture:focus-within{
     box-shadow: 0 0 15px #99e8;
     transform: scale(1.12);
-    transition: .5s;
+    transition: all .8s;
     z-index: 1;
+    animation: heartbeat 1s infinite backwards;
+}
+@keyframes heartbeat {
+    from{
+        transform: scale(1.12);
+    }
+    90%{
+       transform:scale(1.1998); 
+    }
+    to{
+        transform: scale(1.12);
+    }
 }
