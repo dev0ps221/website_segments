@@ -12,39 +12,75 @@
         <div class="picture_portfolio_portfolio">
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/person.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/guy.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/girl.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/persons.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/persons.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/guy.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/persons.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/person.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/girl.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/persons.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/guy.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
             <div class="picture_portfolio_portfolio_picture_wrapper">
                 <img src="/assets/pictures/persons.avif" alt="image portfolio" class="picture_portfolio_portfolio_picture">
+                <h2 class="picture_portfolio_portfolio_picture_label">
+                    titre element
+                </h2>
             </div>
         </div>
     </div>

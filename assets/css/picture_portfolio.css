@@ -1,5 +1,5 @@
 #picture_portfolio{
-
+    padding-inline: 128px;
 }
 
 .picture_portfolio_portfolio{
@@ -7,7 +7,35 @@
     grid-template-columns: repeat(4,3fr);
 }
 
-.picture_portfolio_portfolio_picture_wrapper,.picture_portfolio_portfolio_picture{
+.picture_portfolio_portfolio_picture_wrapper{
+    display: grid;
+    background: #0008;
+    box-shadow: 0 0 5px #0008;
+    align-items: center;
+    margin: 16px;
+    transition: .8s;
+}
+.picture_portfolio_portfolio_picture_wrapper img{
+    transition: .8s;
+}
+.picture_portfolio_portfolio_picture_wrapper img:hover
+,.picture_portfolio_portfolio_picture_wrapper img:focus-within{
+    box-shadow: 0 0 15px #99e8;
+    transform: scale(1.12);
+    transition: .5s;
+    z-index: 1;
+}
+
+.picture_portfolio_portfolio_picture_label{
+    display: grid;
+    align-items: center;
+    padding-block: 16px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+.picture_portfolio_portfolio_picture{
     width: 100%;
     height: 100%;
 }
